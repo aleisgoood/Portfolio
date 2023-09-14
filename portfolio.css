@@ -1,0 +1,22 @@
+/* General Styling */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  background-image: url(./assets/423623-space-Solar-System-planet-space-art-digital-art.png);
+  background-size:cover;
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: gray;
+}
