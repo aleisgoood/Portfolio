@@ -1,0 +1,111 @@
+/* Curriculum Section */
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  background-image: url(./assets/spazio2.png);
+  background-size:cover;
+     
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: gray;
+}
+
+/* Title Section */
+
+.section__text {
+    align-self: center;
+    text-align: center;
+  }
+  
+  .section__text p {
+    font-weight: 600;
+  }
+  
+  .section__text__p1 {
+    text-align: center;
+  }
+  
+  .section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+  }
+
+/* Details Section */
+
+#CV-title {
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+  
+  .about-details-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .about-containers,
+  .about-details-container {
+    display: flex;
+  }
+  
+  .about-pic {
+    border-radius: 2rem;
+  }
+  
+  .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: transparent;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    margin: 70px 70px 70px 70px;
+  }
+  
+  .section-container {
+    gap: 2rem;
+    height: 80%;
+  }
+
+
+.details-container h3 {
+    color: #AB4F23;
+}
+
+#Edu {
+    color: orange;
+}
+
+#Work{
+    color:orange;
+}

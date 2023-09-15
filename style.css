@@ -60,6 +60,10 @@ a:hover {
   cursor: default;
 }
 
+.mobile-nav img {
+  height: 30%;
+}
+
 
 /* Sections */
 
@@ -172,7 +176,9 @@ section {
 .btn-color-2 {
   background:#001C2D;
   color: white;
+  
 }
+
 
 .btn-color-2:hover {
   border: rgb(255, 255) 0.1rem solid;
@@ -243,6 +249,7 @@ section {
 
 #experience {
   position: relative;
+  margin-top: 10rem;
 }
 
 .experience-sub-title {
@@ -297,6 +304,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: -7rem;
 }
 
 .contact-info-upper-container {
