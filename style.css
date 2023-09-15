@@ -60,6 +60,15 @@ a:hover {
   cursor: default;
 }
 
+#desktop-nav{
+  
+  position: sticky;
+  top: 0;
+  background-color: #001C2D;
+  z-index:2;
+  height: 70px;
+
+}
 
 
 /* Sections */
@@ -84,7 +93,6 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 70vh;
-  
 
 }
 
@@ -251,7 +259,7 @@ section {
 #experience {
   position: relative;
   margin-top: 10rem;
-  height: 80vh;
+  
 }
 
 .experience-sub-title {
@@ -299,11 +307,6 @@ article .icon {
   cursor: default;
 }
 
-.ufo  {
-  text-align: center;
-  position: inherit;
-
-}
 
 /* Contact Section */
 
@@ -311,8 +314,8 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 80vh;
-  margin-top: -7rem;
+  
+  
 }
 
 .contact-info-upper-container {
