@@ -6,6 +6,10 @@
     .about-containers {
       flex-wrap: wrap;
     }
+    #CV-title {
+      flex-wrap: wrap;
+    }
+
   }
   
   @media screen and (max-width: 1200px) {
@@ -28,8 +32,9 @@
     }
   
     section,
-    .section-container {
+    .section-container, .details-container {
       height: fit-content;
+
     }
     section {
       margin: 0 5%;
@@ -42,6 +47,10 @@
     }
     .about-containers {
       margin-top: 0;
+    }
+    .details-container {
+      font-size: 1rem;
+      flex-wrap: wrap;
     }
   }
   
@@ -65,10 +74,15 @@
     footer nav {
       height: fit-content;
       margin-bottom: 2rem;
+      
     }
     .about-containers,
     .contact-info-upper-container,
     btn.container {
+      flex-wrap: wrap;
+    }
+    .details-container {
+      font-size: 1rem;
       flex-wrap: wrap;
     }
     .contact-info-container {
@@ -110,6 +124,8 @@
   #desktop-nav a {
   text-align: center;
   margin-left: auto;
+  width: fit-content;
+  height: fit-content;
   }
 }
   
