@@ -126,6 +126,7 @@
     right: -300px;
     width: 300px;
     height: 100%;
+    padding-top: 65px;
     background-color: #AB4F23;
   }
   .nav-links li {
@@ -151,13 +152,10 @@
     right: -300px;
     width: 300px;
     height: 100%;
+    padding-top: 65px;
     background-color: #AB4F23;
   }
-
   .nav-links li {
     width: 100%;
   }
-}
-.toggle-menu{
-  justify-content: right;
-}
+ 
