@@ -8,7 +8,7 @@
 
 body {
   font-family: "Orbitron", sans-serif;
-  background-image: url(./assets/423623-space-Solar-System-planet-space-art-digital-art.png);
+  background-image: url(./img/423623-space-Solar-System-planet-space-art-digital-art.png);
   background-size:cover;
   
 }
@@ -23,21 +23,25 @@ p {
 
 /* Navigation */
 
-nav,
-.nav-links {
+
+nav {
+  justify-content: space-between;
+  align-items: center;
   display: flex;
 }
 
-nav {
-  justify-content: space-around;
-  align-items: center;
-  height: 17vh;
-}
-
 .nav-links {
-  gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links a{
+  padding: 25px;
+  text-decoration: none;
+  flex-grow: 1;
+  flex-basis: 0;
 }
 
 a {
@@ -53,22 +57,73 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .logo:hover {
   cursor: default;
 }
 
+
+
 #desktop-nav{
-  
   position: sticky;
   top: 0;
   background-color: #001C2D;
   z-index:2;
   height: 70px;
-
+  width: 100%;
 }
+
+.hamburger {
+  position: relative;
+  width: 30px;
+  height: 4px;
+  background-color: #AB4F23;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 2;
+  transform: 0.3s;
+}
+.hamburger::before, .hamburger::after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  right: 0;
+  background-color: #AB4F23;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.hamburger::before{
+  top: -10px;
+  width: 20px;
+}
+.hamburger::after{
+  top: 10px;
+  width: 25px;
+}
+
+.toggle-menu{
+  position: absolute;
+  width: 25px;
+  height: 100%;
+  z-index: 3;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.hamburger, .toggle-menu{
+  display: none;
+}
+
+#dekstop-nav input:checked ~ .hamburger {
+  background: transparent;
+}
+
+#desktop-nav input:checked ~ .nav-links {
+  right: 0px;
+}
+
 
 
 /* Sections */

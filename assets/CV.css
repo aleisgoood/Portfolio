@@ -9,7 +9,7 @@
 
 body {
   font-family: "Orbitron", sans-serif;
-  background-image: url(./assets/spazio2.png);
+  background-image: url(/assets/img/spazio2.png);
   background-size:cover;
      
 }
@@ -96,7 +96,6 @@ p {
     gap: 2rem;
     height: 80%;
   }
-
 
 .details-container h3 {
     color: #AB4F23;
