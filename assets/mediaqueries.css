@@ -1,3 +1,4 @@
+/*1400px*/
 @media screen and (max-width: 1400px) {
     #profile {
       height: 83vh;
@@ -11,7 +12,7 @@
     }
 
   }
-  
+  /*1200px*/
   @media screen and (max-width: 1200px) {
     #desktop-nav {
       display:flex;
@@ -56,6 +57,8 @@
       display: none;
   }
 }
+
+/* 600px*/
   @media screen and (max-width: 600px) {
     #contact,
     footer {
@@ -123,19 +126,16 @@
     right: -300px;
     width: 300px;
     height: 100%;
-    padding-top: 65px;
     background-color: #AB4F23;
   }
   .nav-links li {
     width: 100%;
+    
   }
-  .nav-links li a,
-  .nav-links li a:hover {
-    padding: 30px;
-    color: #001C2D;
-  }
- 
+  
 }
+
+/*992 px*/
 
 @media screen and (max-width:992px){
   .hamburger, .toggle-menu {
@@ -151,15 +151,13 @@
     right: -300px;
     width: 300px;
     height: 100%;
-    padding-top: 65px;
     background-color: #AB4F23;
   }
+
   .nav-links li {
     width: 100%;
   }
-  .nav-links li a,
-  .nav-links li a:hover {
-    padding: 30px;
-    color: #001C2D;
-  }
+}
+.toggle-menu{
+  justify-content: right;
 }

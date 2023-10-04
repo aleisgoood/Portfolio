@@ -80,9 +80,7 @@ a:hover {
   width: 30px;
   height: 4px;
   background-color: #AB4F23;
-  border-radius: 10px;
   cursor: pointer;
-  z-index: 2;
   transform: 0.3s;
 }
 .hamburger::before, .hamburger::after{
