@@ -22,6 +22,132 @@ p {
   color: gray;
 }
 
+nav {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.logo {
+  font-size: 3rem;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+
+.nav-links {
+  list-style: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: right;
+  
+}
+
+.nav-links a{
+  padding: 25px 25px 25px 25px;
+  flex-wrap: wrap;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-decoration-color: white;
+ 
+}
+
+a:hover {
+  color: #DC6A0E;
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+
+
+#desktop-nav{
+  position: sticky;
+  top: 0;
+  background-color: #001C2D;
+  z-index:2;
+  height: 70px;
+  width: 100%;
+  
+}
+
+#desktop-nav a{
+  align-items: center;
+  justify-content: center;
+}
+
+
+.nav-links {
+  list-style: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links a{
+  padding: 25px;
+  text-decoration: none;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+
+a:hover {
+  color: #DC6A0E;
+  text-decoration: underline;
+  text-decoration-color: grey;
+}
+.hamburger {
+  position: relative;
+  width: 30px;
+  height: 4px;
+  background-color: #AB4F23;
+  cursor: pointer;
+  transform: 0.3s;
+}
+.hamburger::before, .hamburger::after{
+  content: "";
+  position: absolute;
+  height: 4px;
+  right: 0;
+  background-color: #AB4F23;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.hamburger::before{
+  top: -10px;
+  width: 20px;
+}
+.hamburger::after{
+  top: 10px;
+  width: 25px;
+}
+
+.toggle-menu{
+  position: absolute;
+  width: 25px;
+  height: 100%;
+  z-index: 3;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.hamburger, .toggle-menu{
+  display: none;
+}
+
+#dekstop-nav input:checked ~ .hamburger {
+  background: transparent;
+}
+
+#desktop-nav input:checked ~ .nav-links {
+  right: 0px;
+}
+
+
+
 /* Title Section */
 
 .section__text {

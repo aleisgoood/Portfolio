@@ -418,3 +418,9 @@ footer p {
 .footer-nav {
     padding-top: 200px;
 }
+
+.footer-nav a {
+  display: flex;
+  justify-content: center;
+
+}
