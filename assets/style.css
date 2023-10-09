@@ -424,3 +424,6 @@ footer p {
   justify-content: center;
 
 }
+ul .nav-links{
+  padding: 0;
+}
