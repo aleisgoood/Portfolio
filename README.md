@@ -32,7 +32,7 @@ https://aleisgoood.github.io/
 
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Aleisgoood.</a>
+Made with :heart: by <a href="https://github.com/aleisgoood" target="_blank">Aleisgoood.</a>
 
 &#xa0;
 
