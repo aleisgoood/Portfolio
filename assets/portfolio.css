@@ -1,6 +1,7 @@
 /* General Styling */
 
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,8 +10,8 @@
 body {
   font-family: "Orbitron", sans-serif;
   background-image: url(/assets/img/spazio2.png);
-  background-size:cover;
-  
+  background-size: cover;
+
 }
 
 html {
@@ -22,6 +23,7 @@ nav {
   align-items: center;
   display: flex;
 }
+
 .logo {
   font-size: 3rem;
 }
@@ -36,10 +38,10 @@ nav {
   font-size: 1.5rem;
   display: flex;
   justify-content: right;
-  
+
 }
 
-.nav-links a{
+.nav-links a {
   padding: 25px 25px 25px 25px;
   flex-wrap: wrap;
 }
@@ -48,7 +50,7 @@ a {
   color: white;
   text-decoration: none;
   text-decoration-color: white;
- 
+
 }
 
 a:hover {
@@ -58,17 +60,17 @@ a:hover {
 }
 
 
-#desktop-nav{
+#desktop-nav {
   position: sticky;
   top: 0;
   background-color: #001C2D;
-  z-index:2;
+  z-index: 2;
   height: 70px;
   width: 100%;
-  
+
 }
 
-#desktop-nav a{
+#desktop-nav a {
   align-items: center;
   justify-content: center;
 }
@@ -81,7 +83,7 @@ a:hover {
   justify-content: center;
 }
 
-.nav-links a{
+.nav-links a {
   padding: 25px;
   text-decoration: none;
   flex-grow: 1;
@@ -103,7 +105,9 @@ a:hover {
   cursor: pointer;
   transform: 0.3s;
 }
-.hamburger::before, .hamburger::after{
+
+.hamburger::before,
+.hamburger::after {
   content: "";
   position: absolute;
   height: 4px;
@@ -112,16 +116,18 @@ a:hover {
   border-radius: 10px;
   transition: 0.3s;
 }
-.hamburger::before{
+
+.hamburger::before {
   top: -10px;
   width: 20px;
 }
-.hamburger::after{
+
+.hamburger::after {
   top: 10px;
   width: 25px;
 }
 
-.toggle-menu{
+.toggle-menu {
   position: absolute;
   width: 25px;
   height: 100%;
@@ -130,15 +136,16 @@ a:hover {
   opacity: 0;
 }
 
-.hamburger, .toggle-menu{
+.hamburger,
+.toggle-menu {
   display: none;
 }
 
-#dekstop-nav input:checked ~ .hamburger {
+#dekstop-nav input:checked~.hamburger {
   background: transparent;
 }
 
-#desktop-nav input:checked ~ .nav-links {
+#desktop-nav input:checked~.nav-links {
   right: 0px;
 }
 
@@ -146,85 +153,87 @@ a:hover {
 /* Title Section */
 
 .section__text {
-    align-self: center;
-    text-align: center;
-  }
-  
-  .section__text p {
-    font-weight: 600;
-  }
-  
-  .section__text__p1 {
-    text-align: center;
-    color: gray;
-  }
-  
-  .section__text__p2 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
-  }
-  
-  .title {
-    font-size: 3rem;
-    text-align: center;
-    color: white;
-  }
+  align-self: center;
+  text-align: center;
+}
 
-  /* Details Section */
-  
-  #Portfolio-title {
-    position: relative;
-    margin-top: 5rem;
-    margin-bottom: 3rem;
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center;
+  color: gray;
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+/* Details Section */
+
+#Portfolio-title {
+  position: relative;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 
 .section__text {
-    align-self: right;
-    text-align: center;
+  align-self: right;
+  text-align: center;
 }
 
 .about-containers {
-    gap: 2rem;
-    margin-bottom: 3rem;
-    margin-top: 2rem;
-  }
-  
-  .about-details-container {
-    justify-content: center;
-  }
-  
-  .about-containers,
-  .about-details-container {
-    display: flex;
-  }
-  
-  .details-container {
-    padding: 1.5rem;
-    flex: 1;
-    background: transparent;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
-    margin: 70px 70px 70px 70px;
-  
-  }
+  gap: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
 
-  .details-container img{
-    width: 40%;
-    border-radius: 10%;
-    border: 1 px;
-    border-style: solid;
-    border-color: #AB4F23;
-  }
-  
-  .section-container {
-    gap: 2rem;
-    height: 80%;
-  }
+.about-details-container {
+  justify-content: center;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: transparent;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  margin: 70px 70px 70px 70px;
+
+}
+
+.details-container img {
+  width: 40%;
+  border-radius: 10%;
+  border: 1 px;
+  border-style: solid;
+  border-color: #AB4F23;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-container {
+  gap: 2rem;
+  height: 80%;
+}
 
 .details-container h3 {
-    color: #AB4F23;
+  color: #AB4F23;
 }
 
 #Portfolio-text {
