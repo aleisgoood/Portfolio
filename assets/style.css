@@ -9,8 +9,8 @@
 body {
   font-family: "Orbitron", sans-serif;
   background-image: url(./img/423623-space-Solar-System-planet-space-art-digital-art.png);
-  background-size:cover;
-  
+  background-size: cover;
+
 }
 
 html {
@@ -37,7 +37,7 @@ nav {
   justify-content: center;
 }
 
-.nav-links a{
+.nav-links a {
   padding: 25px;
   text-decoration: none;
   flex-grow: 1;
@@ -58,6 +58,7 @@ a:hover {
 
 .logo {
   font-size: 3rem;
+  color: white;
 }
 
 .logo:hover {
@@ -66,11 +67,11 @@ a:hover {
 
 
 
-#desktop-nav{
+#desktop-nav {
   position: sticky;
   top: 0;
   background-color: #001C2D;
-  z-index:2;
+  z-index: 2;
   height: 70px;
   width: 100%;
 }
@@ -83,7 +84,9 @@ a:hover {
   cursor: pointer;
   transform: 0.3s;
 }
-.hamburger::before, .hamburger::after{
+
+.hamburger::before,
+.hamburger::after {
   content: "";
   position: absolute;
   height: 4px;
@@ -92,16 +95,18 @@ a:hover {
   border-radius: 10px;
   transition: 0.3s;
 }
-.hamburger::before{
+
+.hamburger::before {
   top: -10px;
   width: 20px;
 }
-.hamburger::after{
+
+.hamburger::after {
   top: 10px;
   width: 25px;
 }
 
-.toggle-menu{
+.toggle-menu {
   position: absolute;
   width: 25px;
   height: 100%;
@@ -110,15 +115,16 @@ a:hover {
   opacity: 0;
 }
 
-.hamburger, .toggle-menu{
+.hamburger,
+.toggle-menu {
   display: none;
 }
 
-#dekstop-nav input:checked ~ .hamburger {
+#dekstop-nav input:checked~.hamburger {
   background: transparent;
 }
 
-#desktop-nav input:checked ~ .nav-links {
+#desktop-nav input:checked~.nav-links {
   right: 0px;
 }
 
@@ -187,9 +193,10 @@ section {
   gap: 1rem;
 }
 
-.logo1{
+.logo1 {
   cursor: pointer;
 }
+
 /* Icon */
 
 .icon {
@@ -227,7 +234,7 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
   cursor: pointer;
-  background: #AB4F23 ;
+  background: #AB4F23;
   color: white;
 }
 
@@ -236,9 +243,9 @@ section {
 }
 
 .btn-color-2 {
-  background:#001C2D;
+  background: #001C2D;
   color: white;
-  
+
 }
 
 
@@ -303,8 +310,9 @@ section {
   width: 400px;
   margin: auto 0;
 }
-.section__pic-container img{
-    height: 100%;
+
+.section__pic-container img {
+  height: 100%;
 }
 
 /* Experience Section */
@@ -312,7 +320,7 @@ section {
 #experience {
   position: relative;
   margin-top: 10rem;
-  
+
 }
 
 .experience-sub-title {
@@ -323,17 +331,18 @@ section {
 }
 
 
-.titoli h3{
-color: white;
+.titoli h3 {
+  color: white;
 }
 
-.titoli2 h3{
-    color: white;
+.titoli2 h3 {
+  color: white;
 }
 
-.titoli3 h3{
-    color: white;
+.titoli3 h3 {
+  color: white;
 }
+
 .experience-details-container {
   display: flex;
   justify-content: center;
@@ -367,8 +376,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
-  
+  margin: -20px;
 }
 
 .contact-info-upper-container {
@@ -411,12 +419,13 @@ footer {
 }
 
 footer p {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
 .footer-nav {
-    padding-top: 200px;
+  padding-top: 200px;
+  display: block;
 }
 
 .footer-nav a {
@@ -424,6 +433,7 @@ footer p {
   justify-content: center;
 
 }
-ul .nav-links{
+
+ul .nav-links {
   padding: 0;
 }
