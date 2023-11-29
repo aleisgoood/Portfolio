@@ -27,9 +27,7 @@ I chose warm tones, like orange and deep blue.
 
 In this website you can find my Portfolio, with all my projects (that will be updated everytime!), my CV (made with CSS), a few lines about myself and my hobbies, and my skills and Social Media.
 
-You can find here:
-https://aleisgoood.github.io/
-
+You can find it <a href="https://aleisgoood.github.io/Portfolio/" target="blank">here</a>
 
 
 Made with :heart: by <a href="https://github.com/aleisgoood" target="_blank">Aleisgoood.</a>
