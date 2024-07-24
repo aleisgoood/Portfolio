@@ -319,7 +319,7 @@ section {
 
 #experience {
   position: relative;
-  margin-top: 10rem;
+  margin-top: 8rem;
 
 }
 
@@ -413,12 +413,12 @@ article .icon {
 
 footer {
 
-  height: 25vh;
+  height: 20vh;
   margin: 0 1rem;
 }
 
 footer p {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
